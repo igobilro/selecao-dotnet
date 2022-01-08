@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiAluno", "ApiAluno\ApiAluno.csproj", "{9F5887BA-6F73-49E7-BD33-67EE01EFBFEB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F5887BA-6F73-49E7-BD33-67EE01EFBFEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F5887BA-6F73-49E7-BD33-67EE01EFBFEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F5887BA-6F73-49E7-BD33-67EE01EFBFEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F5887BA-6F73-49E7-BD33-67EE01EFBFEB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {703D259E-7E30-4C78-8E01-0F19373B11A7}
+	EndGlobalSection
+EndGlobal
