@@ -13,7 +13,7 @@ export class UserService {
   form = this.fb.group({
     name: [''],
     email: ['', Validators.email],
-    senha: ['', Validators.required, Validators.minLength(8)],
+    senha: ['', Validators.required],
     cpf: ['', Validators.required]
   })
 
@@ -32,7 +32,7 @@ export class UserService {
 
     var data = {
       Email: this.form.value.email,
-      Password: '123456789'
+      Password: this.form.value.senha
     };
     
     return this.http.post(this.rootAPI + '/login', data)
